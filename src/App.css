@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,37 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.container {
+  display: flex;
+  height: 500px;
+  padding: 0;
+  /* width: 50px; */
+  /* background: yellow; */
+}
+
+.menuComponent {
+  width: 15%;
+  padding: 0.5rem 0;
+  padding-right: 0.5rem;
+}
+
+.productComponent {
+  width: 60%;
+  /* height: 100%; */
+  background: white;
+  border-left: 2px solid rgb(68, 67, 67);
+  border-right: 2px solid rgb(68, 67, 67);
+  /* color: rgb(202, 127, 29); */
+  padding: 0.5rem 0.5rem;
+  display: flex;flex-wrap: wrap;
+  justify-content: space-between;
+  display: flex;
+
+}
+
+.cardComponent {
+  width: 25%;
+  padding: 0.5rem 0.5rem;
 }

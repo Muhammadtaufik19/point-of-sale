@@ -1,0 +1,15 @@
+.listMenu {
+    margin-bottom: 0.5rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    padding-left: 0.5rem;
+    position: relative;
+    color: rgb(13, 14, 14);
+    cursor: pointer; 
+    
+}
+
+.listMenu:nth-child(2){
+    background: turquoise;
+}

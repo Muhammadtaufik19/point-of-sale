@@ -1,0 +1,49 @@
+.box {
+    position: fixed;
+    bottom: 10px;
+    width: 235px;
+    height: 50;
+    box-shadow: 1px 1px 10px 1px rgb(100, 100, 100);
+    padding: 0.5rem;
+    margin-left: 0.5rem;
+    background: rgb(248, 247, 247);
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.pay {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.pay[type=number]{
+    border: none;
+    border-bottom: 1px solid #000;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.pay:focus{
+    outline: none;
+}
+
+.pay input {
+    width: 110px;
+}
+
+.change {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.btnBox {
+    display: flex;
+    justify-content: space-between;
+}

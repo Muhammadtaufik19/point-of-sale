@@ -1,0 +1,25 @@
+.productCard {
+    cursor: pointer;  
+    /* background: rgb(216, 212, 212); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* width: 30%; */
+    padding: 0px 0px;
+    margin: 0 0;
+    background: rgb(215, 238, 193);
+}
+
+.productCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(177, 14, 14, 0.2);
+  }
+
+.productCard img {
+     width: 150px;
+    height: 100px;
+}
+
+.detail {
+    padding: 0px 50x;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+}
