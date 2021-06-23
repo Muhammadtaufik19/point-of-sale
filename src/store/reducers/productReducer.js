@@ -9,6 +9,7 @@ const initialState = {
 // reducer
 const productReducer = (state = initialState, action) => {
   const { type, payload } = action;
+
   switch (type) {
     default:
       return state;
@@ -24,6 +25,61 @@ const productReducer = (state = initialState, action) => {
       } else {
         return state;
       }
+
+    // acton tambah di kelola reducer
+    case "INCREMENT":
+      // console.log(state.products.find((item) => item.id === payload).price);
+      const originalPrice = state.products.find(
+        (item) => item.id === payload
+      ).price;
+      const incCart = state.carts.map((item) => {
+        if (item.id === payload) {
+          return {
+            ...item,
+            price: item.price + originalPrice,
+          };
+        } else {
+          return item;
+        }
+      });
+      return {
+        ...state,
+        carts: incCart,
+      };
+
+    // action pengurangan yang di kelola reducer
+    case "DECREMENT":
+      const orilPrice = state.products.find(
+        (item) => item.id === payload
+      ).price;
+      const decCart = state.carts.map((item) => {
+        if (item.id === payload) {
+          return {
+            ...item,
+            price: item.price - orilPrice,
+          };
+        } else {
+          return item;
+        }
+      });
+      return {
+        ...state,
+        carts: decCart,
+      };
+
+    // Reducer remove
+    case "REMOVE":
+      return {
+        ...state,
+        carts: state.carts.filter((item) => item.id !== payload),
+      };
+
+    // Reducer reset
+    case "RESET":
+      return {
+        ...state,
+        carts: [],
+      };
   }
 };
 

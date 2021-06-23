@@ -34,7 +34,7 @@ const App = () => {
         <div className="cardComponent">
           {carts ? `${carts.length} item in cart` : `0 item in cart`}
           {carts.map((item) => (
-            <CardItem item={item} />
+            <CardItem key={item.id} item={item} />
           ))}
 
           <CalculateBox />
