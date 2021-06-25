@@ -45,7 +45,7 @@ const CalculateBox = () => {
       <div className="box">
         <div className="total">
           <h4>Total</h4>
-          <p>{totalBayar}</p>
+          <p>Rp {totalBayar}</p>
         </div>
         <div className="pay">
           <p>Jumlah bayar</p>
@@ -53,7 +53,7 @@ const CalculateBox = () => {
         </div>
         <div className="change">
           <p>Kembalian</p>
-          <p>{change}</p>
+          <p>Rp {change}</p>
         </div>
         <div className="btnBox">
           <Button text="Reset" action={resetCard} />

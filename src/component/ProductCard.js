@@ -8,6 +8,7 @@ import { useDispatch } from "react-redux";
 // import action add to card
 import { addCart } from "../store/actions/product";
 
+// -------------------------------------------------
 const ProductCard = ({ item }) => {
   // DISPATCH
   const dispatch = useDispatch();

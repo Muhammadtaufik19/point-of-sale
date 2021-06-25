@@ -1,8 +1,10 @@
 .header {
-    height: 70px;
+    height: 50px;
     display: flex;
     justify-content: center;
-    background: rgb(29, 95, 170);
+    background: #7770ff;
     color: white;
     margin-top: 0;
+    padding-top: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }

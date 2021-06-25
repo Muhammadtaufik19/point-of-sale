@@ -1,7 +1,7 @@
 .inc {
     width: 15px;
     height: 15px;
-    background: royalblue;
+    background: #7770ff;
     color: white;
     border-radius: 100px;
     display: flex;
@@ -14,7 +14,7 @@
 .dec {
     width: 15px;
     height: 15px;
-    background: rgb(204, 34, 21);
+    background: #ff3217;
     color: white;
     border-radius: 100px;
     display: flex;

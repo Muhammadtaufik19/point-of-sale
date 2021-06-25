@@ -1,13 +1,26 @@
 import React, { useState } from "react";
 import "./ListMenu.css";
+import MenuMinu from "./MenuMinuman";
 
-const ListMenu = () => {
-  const [menu] = useState(["Faforite", "Makanan", "Minuman", "Cemilan"]);
+const ListMenu = ({ changeCategory }) => {
+  const [menu, setMenu] = useState([
+    "Faforite",
+    "Makanan",
+    "Minuman",
+    "Cemilan",
+  ]);
+
+  const ubahMenu = (menu) => {
+    console.log("menu berubah", menu);
+    changeCategory(menu);
+  };
+
   return (
     <div>
       <ul>
+        {/* <MenuMinu /> */}
         {menu.map((item, index) => (
-          <li className="listMenu" key={index}>
+          <li className="listMenu" key={index} onClick={() => ubahMenu(item)}>
             {item}
           </li>
         ))}

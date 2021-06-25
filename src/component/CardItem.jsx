@@ -31,7 +31,7 @@ const CardItem = ({ item }) => {
 
   return (
     <div className="cardItem">
-      <div className="itemName">{item.name}</div>
+      <div className="itemName"> {item.name}</div>
       <div className="counterContainer">
         <Counter inc={() => increment(item.id)} />
         <div className="counterTotal">{count}</div>
