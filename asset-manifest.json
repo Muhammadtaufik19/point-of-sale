@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/point-of-sale/static/css/main.4745d205.chunk.css",
+    "main.js": "/point-of-sale/static/js/main.1f8fa58d.chunk.js",
+    "main.js.map": "/point-of-sale/static/js/main.1f8fa58d.chunk.js.map",
+    "runtime-main.js": "/point-of-sale/static/js/runtime-main.8509466b.js",
+    "runtime-main.js.map": "/point-of-sale/static/js/runtime-main.8509466b.js.map",
+    "static/js/2.9e7db662.chunk.js": "/point-of-sale/static/js/2.9e7db662.chunk.js",
+    "static/js/2.9e7db662.chunk.js.map": "/point-of-sale/static/js/2.9e7db662.chunk.js.map",
+    "static/js/3.7625140f.chunk.js": "/point-of-sale/static/js/3.7625140f.chunk.js",
+    "static/js/3.7625140f.chunk.js.map": "/point-of-sale/static/js/3.7625140f.chunk.js.map",
+    "index.html": "/point-of-sale/index.html",
+    "static/css/main.4745d205.chunk.css.map": "/point-of-sale/static/css/main.4745d205.chunk.css.map",
+    "static/js/2.9e7db662.chunk.js.LICENSE.txt": "/point-of-sale/static/js/2.9e7db662.chunk.js.LICENSE.txt",
+    "static/media/ayam bakar.jpg": "/point-of-sale/static/media/ayam bakar.59d95ac4.jpg",
+    "static/media/ayam goreng paha.jpg": "/point-of-sale/static/media/ayam goreng paha.54e67b33.jpg",
+    "static/media/bebek rica rica.jpg": "/point-of-sale/static/media/bebek rica rica.9db37949.jpg",
+    "static/media/es jeruk.jpg": "/point-of-sale/static/media/es jeruk.a48b98c2.jpg",
+    "static/media/es stroberry.jpg": "/point-of-sale/static/media/es stroberry.cee3f56e.jpg",
+    "static/media/es teh manis.jpg": "/point-of-sale/static/media/es teh manis.497e0f97.jpg",
+    "static/media/lele goreng.jpg": "/point-of-sale/static/media/lele goreng.97c5c11b.jpg",
+    "static/media/nasi goreng.jpg": "/point-of-sale/static/media/nasi goreng.793ad05c.jpg",
+    "static/media/sate ayam.jpg": "/point-of-sale/static/media/sate ayam.a18df23c.jpg",
+    "static/media/sate kambing.jpg": "/point-of-sale/static/media/sate kambing.e2db8c89.jpg",
+    "static/media/sop kambing.jpg": "/point-of-sale/static/media/sop kambing.958f93fa.jpg",
+    "static/media/soto ayam.jpg": "/point-of-sale/static/media/soto ayam.380b6742.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8509466b.js",
+    "static/js/2.9e7db662.chunk.js",
+    "static/css/main.4745d205.chunk.css",
+    "static/js/main.1f8fa58d.chunk.js"
+  ]
+}
